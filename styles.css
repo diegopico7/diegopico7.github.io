@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: sans-serif;
+}
+
+.contenedor-header {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  background-image: url(/freelancer.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.foto-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  height: auto;
+}
+
+.foto-logo img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 15px;
+}
+
+.titulo {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.titulo h1 {
+  font-size: 9 ex;
+  color: #fff;
+  text-align: center;
+}
+.titulo h4 {
+  font-size: 4ex;
+
+  text-align: center;
+}
+.titulo h6 {
+  font-size: 1rem;
+  color: #fff;
+  text-align: center;
+}
+
+.redes-sociales-contenedor {
+  max-width: 100%;
+  height: auto;
+  display: flex;
+}
+.listas-redes-sociales {
+  width: 100%;
+  height: auto;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  list-style: none;
+  margin: 25px;
+}
+
+.logos-redes-sociales {
+  width: 30px;
+  height: auto;
+  background-color: #fff;
+  border-radius: 50%;
+}
+.logos-redes-sociales:hover {
+  background-color: lightblue;
+
+  border-radius: 50%;
+}
+
+.descripcion-personal {
+  margin: 20px;
+  text-align: center;
+}
+
+.descripcion-personal h2 {
+  margin: 10px;
+  padding: 5px;
+}
+
+.informacion-varia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px 0;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.informacion-varia h2 {
+  text-align: center;
+}
+.contenedor-informacion {
+  margin: 25px;
+  background-color: rgb(206, 203, 203);
+  color: #000;
+}
+
+.contenedor-informacion:hover {
+  background-color: lightblue;
+}
+.contenedor-informacion dl {
+  text-align: center;
+}
+
+.contenedor-habilidades {
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contenedor-habilidades h2 {
+  text-align: center;
+  margin: 10px;
+  padding: 15px;
+  font-size: 3rem;
+}
+.listas-habilidades {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.listas-habilidades img {
+  width: 150px;
+  height: 150px;
+}
+
+.idiomas {
+  margin: 15px;
+  padding: 15px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.contenedor-img-footer img {
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.oscuro-contenedor {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.b-dark {
+  border: none;
+  background-color: white;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.b-dark:hover {
+  color: #fff;
+  border: none;
+  /* background: black; */
+  border-radius: 5px;
+}
+
+body.darkmode {
+  background-color: rgb(32, 32, 44);
+  color: white;
+
+  transition: all 2s;
+}
+
+.darkmode button:hover {
+  background-color: white;
+  color: black;
+}
